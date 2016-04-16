@@ -26,9 +26,3 @@ Package.onUse(function(api) {
   api.addFiles('shopify_client.js', 'client');
   api.addFiles('shopify_server.js', 'server');
 });
-
-Package.onTest(function(api) {
-  api.use('ecmascript');
-  api.use('tinytest');
-  api.use('shopify');
-});
