@@ -1,4 +1,4 @@
-Shopify = {};
+Shopify = Shopify || {};
 
 OAuth.registerService('shopify', 2, null, function(query) {
 

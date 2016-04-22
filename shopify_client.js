@@ -1,4 +1,4 @@
-Shopify = {};
+Shopify = Shopify || {};
 
 // Request Shopify credentials for the user
 // @param shopUrl {required}
